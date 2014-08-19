@@ -22,6 +22,7 @@
 		23C4C02119A331DF00A404FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C4C00019A331DF00A404FF /* UIKit.framework */; };
 		23C4C02919A331DF00A404FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23C4C02719A331DF00A404FF /* InfoPlist.strings */; };
 		23C4C02B19A331DF00A404FF /* RYIOSLABTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C4C02A19A331DF00A404FF /* RYIOSLABTests.m */; };
+		23C4C03619A373BB00A404FF /* NewCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C4C03519A373BB00A404FF /* NewCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		23C4C02619A331DF00A404FF /* RYIOSLABTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RYIOSLABTests-Info.plist"; sourceTree = "<group>"; };
 		23C4C02819A331DF00A404FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23C4C02A19A331DF00A404FF /* RYIOSLABTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYIOSLABTests.m; sourceTree = "<group>"; };
+		23C4C03419A373BB00A404FF /* NewCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCViewController.h; sourceTree = "<group>"; };
+		23C4C03519A373BB00A404FF /* NewCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				23C4C01519A331DF00A404FF /* ViewController.m */,
 				23C4C01719A331DF00A404FF /* Images.xcassets */,
 				23C4C00319A331DF00A404FF /* Supporting Files */,
+				23C4C03419A373BB00A404FF /* NewCViewController.h */,
+				23C4C03519A373BB00A404FF /* NewCViewController.m */,
 			);
 			path = RYIOSLAB;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				23C4C01619A331DF00A404FF /* ViewController.m in Sources */,
 				23C4C00D19A331DF00A404FF /* AppDelegate.m in Sources */,
 				23C4C00919A331DF00A404FF /* main.m in Sources */,
+				23C4C03619A373BB00A404FF /* NewCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

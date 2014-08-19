@@ -1,4 +1,4 @@
-//
+                                                                                                                                                                                                                                                                    //
 //  ViewController.m
 //  RYIOSLAB
 //
@@ -7,16 +7,23 @@
 //
 
 #import "ViewController.h"
-
+#import "NewCViewController.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        
+    }
+    return self;
+}
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+   [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,6 +31,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    NewCViewController *mcc = [[NewCViewController alloc] init];
+    mcc = [segue destinationViewController];
+    mcc.nameField = self.nameField.text;
+    mcc.phoneNumberField = self.phoneNumberField.text;
 }
 
 @end
